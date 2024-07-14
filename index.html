@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive/responsive.css">
 </head>
 
 <body>
     <nav>
         <img src="image.png" alt="logo">
         <ul>
-            <li>Vous n'avez pas de compte ? <a href="../New/index.html">Créez un compte</a></li>
-            <li><a href="mailto:koumondjitimotheeklaus@gmail.com">Contact</a></li>
-            <li><a href="#">Besoin d'aide</a></li>
+            <li><span id="texteCompte">Vous n'avez pas de compte ?</span> <a href="../New/index.html" id="compte" >Créez un compte</a></li>
+            <li><a href="mailto:koumondjitimotheeklaus@gmail.com" id="Contact">Contact</a></li>
+            <li><a href="#"  id="aide">Besoin d'aide</a></li>
         </ul>
     </nav>
     <div class="container">
@@ -26,7 +27,7 @@
                 <a href="#">Mot de passe oublié ?</a>
                 <button type="submit">Connexion</button>
             </div>
-            <marquee style="width: 90%;border-radius: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <marquee id="marquee" style="width: 90%;border-radius: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Perferendis officia adipisci dolor neque a doloribus reiciendis, sunt doloremque dolores cum repudiandae
                 sit quo, in sapiente, quibusdam suscipit sed corporis et?</marquee>
         </form>
